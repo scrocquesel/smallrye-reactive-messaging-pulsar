@@ -1,0 +1,14 @@
+artifact: ${project.groupId}:${project.artifactId}:${project.version}
+name: "Smallrye Reactive Messaging - Pulsar Connector"
+metadata:
+  short-name: "pulsar"
+  keywords:
+    - "pulsar"
+    - "reactive-pulsar"
+  categories:
+    - "messaging"
+  status: "experimental"
+  config:
+    - "mp.messaging.*"
+    - "quarkus.reactive-messaging.*"
+    - "quarkus.pulsar.*"

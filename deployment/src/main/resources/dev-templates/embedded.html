@@ -1,0 +1,6 @@
+{#if info:pulsarHttpPort.httpPort != null}
+<a target="_blank" href="http://localhost:{info:pulsarHttpPort.httpPort}" class="badge badge-light">
+  <i class="fa fa-external-link-alt fa-fw"></i>
+  Pulsar admin service URL <span class="badge badge-light">{info:pulsarHttpPort.httpPort}</span></a>
+<br>
+{/if}
